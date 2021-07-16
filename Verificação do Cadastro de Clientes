@@ -1,0 +1,33 @@
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("..........empresa ozzi..........")
+   escreval()
+   escreval("...................................................")
+   escreva("verificação do cadastro cliente")
+   escreval()
+   escreval("digite a renda do cliente:")
+   leia(renda)
+
+   se (renda < 1000) entao
+      escreva("cliente con cadastro negado")
+      escreval()
+   senao
+      se((renda >= 1000) e (renda < 3000)) entao
+         credito <- renda * 0.3
+         escreva("Você está na faixa 1, e seu crédito é: ", credito)
+         escreval()
+         escreval("Obrigado e Boas compras")
+      senao
+         se(renda > 3000) entao
+            credito <- renda * 0.3
+            escreva("você está na faixa 2, e seu credito é: ", credito)
+            escreval()
+            escreval("Obrigdo e Boas compras")
+            leia()
+
+
+         fimse
+      fimse
+   fimse
+
+Fimalgoritmo
